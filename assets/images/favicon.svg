@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b3b"/>
+      <stop offset="100%" stop-color="#b80012"/>
+    </linearGradient>
+    <linearGradient id="favMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0f1115"/>
+  <circle cx="32" cy="32" r="26" fill="#181c24" stroke="url(#favMetal)" stroke-width="2"/>
+  <path d="M 32 8 A 24 24 0 0 1 56 32" fill="none" stroke="url(#favRed)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 32 56 A 24 24 0 0 1 8 32" fill="none" stroke="url(#favRed)" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Spiral Blade Center -->
+  <g transform="translate(32,32)">
+    <path d="M 0 0 C 7 -14, 18 -15, 19 -4 C 15 -2, 7 -1, 0 0 Z" fill="url(#favMetal)"/>
+    <path d="M 0 0 C 14 7, 15 18, 4 19 C 2 15, 1 7, 0 0 Z" fill="url(#favMetal)"/>
+    <path d="M 0 0 C -7 14, -18 15, -19 4 C -15 2, -7 1, 0 0 Z" fill="url(#favMetal)"/>
+    <path d="M 0 0 C -14 -7, -15 -18, -4 -19 C -2 -15, -1 -7, 0 0 Z" fill="url(#favMetal)"/>
+    <circle cx="0" cy="0" r="5" fill="#0f1115" stroke="url(#favMetal)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2.5" fill="url(#favRed)"/>
+  </g>
+</svg>
